@@ -1,0 +1,46 @@
+.wrapper {
+  width: 100%;
+  margin: auto;
+  max-width: 1024px;
+
+}
+
+.row {
+  width: 100%;
+
+}
+
+.four, .two, .one, .three, .five {
+  width: 92%;
+  background: #00ff00;
+  height: 100px;
+  margin: 4%;
+  float: left;
+}
+
+.two {
+  width: 42%;
+  background-color: #0000ff;
+}
+
+.one {
+  width: 17%;
+  background-color: #00f0f0;
+}
+
+.three {
+  width: 67%;
+  background-color: #5500ff;
+}
+
+
+@media (min-width: 1024px) {
+  .one, .two, .three, .four {
+    background-color: #ff0000;
+  }
+}
+@media (max-width: 460px) {
+  .one, .two, .three, .four {
+    width: 92%;
+  }
+}
