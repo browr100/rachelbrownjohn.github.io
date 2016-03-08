@@ -1,22 +1,27 @@
+h1 {
+  color: #86A8A3;
+
+}
+
 body {
-  background-color: red;
-  background: url("images/background.png");
-  font-family: 'Arial', sans-sherif;
+  background-color: white;
+  background: url("images/b-r.jpg");
+  font-family: Futura;
 }
 
 .wrapper {
   width: 50%;
   margin: auto;
-  background-color: white;
+  background-color: #201C19;
   padding: 10px;
 
 }
 .awesomeclass {
-  color: #44FF33;
+  color: #201C19;
 }
 
-#directions {
-  color: #ff0088;
+#about {
+  color: #86A8A3;
 }
 
 .awesomeclass .awesome {
@@ -24,11 +29,48 @@ color: #0000FF;
 }
 
 h2 {
-  color: #e7642c;
+  font-size: 200%;
+  color: #86A8A3;
   font-family: 'Source Sans Pro', sans-serif;
 }
+
+h3 {
+  font-size: 200%;
+  color: #86A8A3;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 
 .best {
 
   color: blue
+}
+
+p {
+  font-size: 115%;
+  color: #A5877E;
+    font-family: Futura;
+}
+
+ul {
+  color: #A5877E;
+  font-size: 115%;
+    font-family: Futura;
+}
+
+a {
+  color: #ff0000;
+  font-size: 115%;
+    font-family: Futura;
+}
+@media (min-width: 1024px) {
+  .awesomeclass, .awesome, ul, p, h2, h3, h1, body, #body,.best, .wrapper
+   {
+    background-color: #201C19;
+  }
+}
+@media (max-width: 460px) {
+.awesomeclass, .awesome, ul, p, h2, h3, h1, body, #body,.best, .wrapper{
+    width: 92%;
+  }
 }
